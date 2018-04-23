@@ -5,7 +5,8 @@
 end;
 architecture registry of reg is
 begin
-	process(CLK)
+	process(CLK)  
+	--variable data:BIT_VECTOR(7 downto 0);
 	begin
 		if(CLK='1' and CLK'EVENT)then
 			Y<=A ;
