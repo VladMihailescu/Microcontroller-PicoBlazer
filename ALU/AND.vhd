@@ -1,22 +1,32 @@
-entity AND_8_BIT is
-	port(A,B:in BIT_VECTOR(7 downto 0);
-		 R:out BIT_VECTOR(7 downto 0);
-		 CARRY_FLAG,ZERO_FLAG:out bit);
-end AND_8_BIT;
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.STD_LOGIC_UNSIGNED.all;
 
+entity ANDD is
+	generic(
+		NR_BITS: INTEGER := 8
+	);						  
+	port(
+	FIRST_NUMBER: in STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);
+	SECOND_NUMBER: in STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);
+	RESULT: inout STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);
+	ZERO_FLAG: out STD_LOGIC
+	);
+end;						 
 
-architecture AND_8_BIT_ARCH of AND_8_BIT is
+architecture ANDD_ARCHITECTURE of ANDD is										  
 
 begin
-	R <= A and B;   
-	CARRY_FLAG <= '0'; 
-	ZERO_FLAG <= 
-	(not (A(0) and B(1))) and
-	(not (A(1) and B(1))) and 
-	(not (A(2) and B(2))) and 
-	(not (A(3) and B(3))) and
-	(not (A(4) and B(4))) and
-	(not (A(5) and B(5))) and
-	(not (A(6) and B(6))) and
-	(not (A(7) and B(7)));	  
-end AND_8_BIT_ARCH;
+	RESULT <= FIRST_NUMBER and SECOND_NUMBER; 
+	
+	process(FIRST_NUMBER, SECOND_NUMBER)
+	variable INTERMEDIAR_RESULT_ZERO: STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);  
+	begin
+		INTERMEDIAR_RESULT_ZERO := FIRST_NUMBER and SECOND_NUMBER;
+		if(INTERMEDIAR_RESULT_ZERO = "00000000") then
+			ZERO_FLAG <= '1';
+		else
+			ZERO_FLAG <= '0';
+		end if;
+	end process;
+end;

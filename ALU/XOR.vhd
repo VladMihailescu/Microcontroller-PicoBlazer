@@ -1,22 +1,33 @@
-entity XOR_8_BIT is
-	port(A,B:in BIT_VECTOR(7 downto 0);
-		 R:out BIT_VECTOR(7 downto 0);
-		 CARRY_FLAG,ZERO_FLAG:out bit);
-end XOR_8_BIT;
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.STD_LOGIC_UNSIGNED.all;
 
+entity XORR is
+	generic(
+		NR_BITS: INTEGER := 8
+	);						 
+	port(
+		FIRST_NUMBER: in STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);
+		SECOND_NUMBER: in STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);
+		RESULT: out STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);
+		ZERO_FLAG: out STD_LOGIC
+	);
+end;							 
 
-architecture XOR_8_BIT_ARCH of XOR_8_BIT is
+architecture XORR_ARCHITECTURE of ORR is
 
 begin
-	R <= A xor B;   
-	CARRY_FLAG <= '0'; 
-	ZERO_FLAG <= 
-	(not (A(0) xor B(1))) and
-	(not (A(1) xor B(1))) and 
-	(not (A(2) xor B(2))) and 
-	(not (A(3) xor B(3))) and
-	(not (A(4) xor B(4))) and
-	(not (A(5) xor B(5))) and
-	(not (A(6) xor B(6))) and
-	(not (A(7) xor B(7)));	  
-end XOR_8_BIT_ARCH;
+	RESULT <= FIRST_NUMBER xor SECOND_NUMBER; 
+	
+	process(FIRST_NUMBER, SECOND_NUMBER)
+	variable INTERMEDIAR_RESULT_ZERO: STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);  
+	begin
+		INTERMEDIAR_RESULT_ZERO := FIRST_NUMBER xor SECOND_NUMBER;
+		if(INTERMEDIAR_RESULT_ZERO = "00000000") then
+			ZERO_FLAG <= '1';
+		else
+			ZERO_FLAG <= '0';
+		end if;
+	end process;
+	
+end;
