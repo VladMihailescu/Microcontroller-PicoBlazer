@@ -7,10 +7,10 @@ entity ANDD is
 		NR_BITS: INTEGER := 8
 	);						  
 	port(
-	FIRST_NUMBER: in STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);
-	SECOND_NUMBER: in STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);
-	RESULT: inout STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);
-	ZERO_FLAG: out STD_LOGIC
+		FIRST_NUMBER: in STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);
+		SECOND_NUMBER: in STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);
+		RESULT: inout STD_LOGIC_VECTOR(NR_BITS - 1 downto 0);
+		ZERO_FLAG: out STD_LOGIC
 	);
 end;						 
 

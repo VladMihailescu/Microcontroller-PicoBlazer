@@ -14,7 +14,7 @@ entity XORR is
 	);
 end;							 
 
-architecture XORR_ARCHITECTURE of ORR is
+architecture XORR_ARCHITECTURE of XORR is
 
 begin
 	RESULT <= FIRST_NUMBER xor SECOND_NUMBER; 
