@@ -17,11 +17,6 @@ entity MUX_OUTPUT is
 end entity MUX_OUTPUT;
 					
 architecture MUX_OUTPUT_ARCHITECTURE of MUX_OUTPUT is						   
-begin 			 	 
-	process(SELECTION)
-	begin
-		assert (SELECTION >= 16) report "DA" severity failure;
-	end process;
-	--assert SELECTION  report SELECTION severity failure;
+begin 			 	 									   
 	OUTPUT <= INPUT_MATRIX(SELECTION);	  
 end architecture MUX_OUTPUT_ARCHITECTURE;    
