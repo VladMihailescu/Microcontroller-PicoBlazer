@@ -1,0 +1,81 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#30#matrix((NR_INPUTS-1) downto 0)1 ricd1 0 a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 3 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 65 1 2 INPUT_MATRIX
+$SC 1-61/4
+I 4 "i#7#integerrict-2147483648 2147483647 "
+$IN +7 4 SELECTION
+I 5 "a#38#std_logic_vector((NR_BITS-1) downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +36 5 8 OUTPUT
+$SC 72-+28/4
+$ENDTIME 100000
+$WAVES 84
+=0 T 0
+=1 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 1 21 +8-41/4 +8-61/4
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES 5-17/4 +8 45
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 72-+8/4 +8-+12/4
+*0
+*1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 68
+*0
+$VALUES
+V 1
+0
+$END
+$ENDTIME 200000
+$ENDTIME 300000
+$ENDTIME 400000
+$WAVES +8
+=2 D 300k 2
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*2
+$VALUES
+V 1
+0
+$END
+$WAVES +8
+*2
+$VALUES
+V 1
+0
+$END
+$WAVES +8
+*2
+$VALUES
+V 1
+0
+$END
+$WAVES 68
+=3 D 300k 1
+$VALUES
+V 1
+1
+$END
+$ENDWAVE

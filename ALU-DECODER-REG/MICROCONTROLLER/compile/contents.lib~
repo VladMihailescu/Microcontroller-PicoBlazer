@@ -1,0 +1,5 @@
+471
+~E 1 "./src/DELAY_BLACK_BOX.vhd" 5 delay_black_box
+~A 1 "./src/DELAY_BLACK_BOX.vhd" 17 delay_black_box_architecture
+~E 1 "./src/MICROCONTROLLER_BLACK_BOX.vhd" 9 microcontroller_black_box
+~A 1 "./src/MICROCONTROLLER_BLACK_BOX.vhd" 23 microcontroller_black_box_architecture

@@ -1,0 +1,51 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=REGISTERS
+
+[Library]
+REGISTERS=.\REGISTERS.lib
+
+[$LibMap$]
+REGISTERS=.
+Active_lib=
+
+[Settings]
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+REFRESH_FLOW=1
+
+[IMPLEMENTATION]
+UCF=
+
+[Folders]
+Name3=Makefiles
+Directory3=d:\Programs\AHDLMyDesigns\ProiectPSN\REGISTERS\
+Extension3=mak
+Name4=Memory
+Directory4=d:\Programs\AHDLMyDesigns\ProiectPSN\REGISTERS\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=d:\Programs\AHDLMyDesigns\ProiectPSN\REGISTERS\
+Extension5=dll
+
+[Files]
+/FIRST_MUX.vhd=-1
+/packageTypes.vhd=-1
+/SECOND_MUX.vhd=-1
+/REGISTERS_BLACK_BOX.vhd=-1
+
+[Files.Data]
+.\src\FIRST_MUX.vhd=VHDL Source Code
+.\src\packageTypes.vhd=VHDL Source Code
+.\src\SECOND_MUX.vhd=VHDL Source Code
+.\src\REGISTERS_BLACK_BOX.vhd=VHDL Source Code
+

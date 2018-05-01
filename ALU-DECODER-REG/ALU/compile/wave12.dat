@@ -1,0 +1,67 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#30#matrix((NR_INPUTS-1) downto 0)1 ricd1 0 a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 3 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 65 1 2 INPUT_MATRIX
+$SC 1-61/4
+I 4 "i#7#integerrict-2147483648 2147483647 "
+$IN +7 4 SELECTION
+I 5 "a#38#std_logic_vector((NR_BITS-1) downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT +36 5 8 OUTPUT
+$SC 72-+28/4
+$BUS IN +5 1 2 INPUT_MATRIX
+$SC 1-61/4
+$IN +7 0 SELECTION
+$BUS OUT +40 5 8 OUTPUT
+$SC 72-+28/4
+$ENDTIME 100000
+$WAVES 1-9/4 25-+8/4 53 +8
+=0 T 0
+=1 D 0 1
+$VALUES
+V 2
+1
+U
+$END
+$WAVES 13-+8/4 37-49/4 +8
+*0
+*1
+$VALUES
+V 2
+0
+U
+$END
+$WAVES 72 92 +8
+*0
+*1
+=2 D 0 2
+$VALUES
+V 3
+U
+1
+U
+$END
+$WAVES 76-88/4 +8
+*0
+*1
+*2
+$VALUES
+V 3
+U
+0
+U
+$END
+$WAVES 68
+*0
+$VALUES
+V 1
+0
+$END
+$ENDTIME 200000
+$BUS IN +41 1 2 INPUT_MATRIX
+$SC 1-61/4
+$IN +7 0 SELECTION
+$BUS OUT +44 5 8 OUTPUT
+$SC 72-+28/4
+$ENDWAVE

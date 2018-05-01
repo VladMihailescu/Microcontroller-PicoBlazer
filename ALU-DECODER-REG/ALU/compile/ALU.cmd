@@ -1,0 +1,1 @@
+-w -s "d:\Programs\AHDLMyDesigns\ProiectPSN\library.cfg"  -j "d:\Programs\AHDLMyDesigns\ProiectPSN\ALU\projlib.cfg"  -d "d:\Programs\AHDLMyDesigns\ProiectPSN\ALU\compile\"  -work ALU -dbg -e 100 "d:\Programs\AHDLMyDesigns\ProiectPSN\ALU\src\ALU_BLACK_BOX.vhd" 

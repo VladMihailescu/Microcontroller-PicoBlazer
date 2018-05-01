@@ -1,0 +1,5 @@
+240
+~E 1 "./src/DEC_VECTOR_TO_INTEGER.vhd" 5 dec_vector_to_integer
+~A 1 "./src/DEC_VECTOR_TO_INTEGER.vhd" 14 dec_vector_to_integer_architecture
+~E 1 "./src/DECODER_BLACK_BOX.vhd" 5 decoder_black_box
+~A 1 "./src/DECODER_BLACK_BOX.vhd" 28 decoder_black_box_architecture

@@ -1,0 +1,7 @@
+281
+~E 1 "./src/REGISTERS_BLACK_BOX.vhd" 6 registers_black_box
+~A 1 "./src/REGISTERS_BLACK_BOX.vhd" 27 registers_black_box_architecture
+~E 1 "./src/FIRST_MUX.vhd" 6 first_mux
+~A 1 "./src/FIRST_MUX.vhd" 19 first_mux_architecture
+~E 1 "./src/SECOND_MUX.vhd" 6 second_mux
+~A 1 "./src/SECOND_MUX.vhd" 19 second_mux_architecture

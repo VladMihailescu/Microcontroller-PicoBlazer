@@ -1,0 +1,61 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#38#std_logic_vector((NR_BITS-1) downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 33 1 8 FIRST_REGISTER_INPUT
+$SC 1-29/4
+$BUS IN 66 1 8 0 15 SECOND
+$SC 34-62/4
+$BUS IN 99 1 8 0 6 CONSTANT
+$SC 67-95/4
+I 3 "i#7#integerrict-2147483648 2147483647 "
+$IN +5 3 0 6 SEL_MUX
+$IN +4 3 8 3 OUT
+$INOUT +4 2 ZERO_FLAG
+$INOUT +4 2 0 5 CARRY
+$BUS OUT +36 1 8 RESULT_OUTPUT
+$SC 116-+28/4
+$BUS S +37 1 8 SECOND_OPERAND
+$SC 149-+28/4
+I 4 "a#34#matrix((INPUT_MUX_SEL-1) downto 0)1 ricd1 0 a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 5 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +69 4 2 AUXILIAR_MATRIX_INPUT
+$SC 182-+60/4
+$BUS S +39 1 8 ADD_RESULT
+$SC 249-+28/4
+$BUS S +37 1 8 3 7 CY
+$SC 282-+28/4
+$BUS S +37 1 8 1 7 ND
+$SC 315-+28/4
+$BUS S +37 1 8 0 7 OR
+$SC 348-+28/4
+$BUS S +37 1 8 0 7 SUB
+$SC 381-+28/4
+$BUS S +37 1 8 3 7 CY
+$SC 414-+28/4
+$BUS S +37 1 8 0 7 XOR
+$SC 447-+28/4
+$BUS S +37 1 8 0 7 SR0
+$SC 480-+28/4
+$BUS S +37 1 8 2 7 "1"
+$SC 513-+28/4
+$BUS S +37 1 8 2 7 X
+$SC 546-+28/4
+$BUS S +37 1 8 2 7 A
+$SC 579-+28/4
+$BUS S +37 1 8 0 7 RR
+$SC 612-+28/4
+$BUS S +37 1 8 0 7 SL0
+$SC 645-+28/4
+$BUS S +37 1 8 2 7 "1"
+$SC 678-+28/4
+$BUS S +37 1 8 2 7 X
+$SC 711-+28/4
+$BUS S +37 1 8 2 7 A
+$SC 744-+28/4
+$BUS S +37 1 8 0 7 RL
+$SC 777-+28/4
+I 6 "a#35#matrix((OUTPUT_MUX_SEL-1) downto 0)1 ricd16 0 a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +549 6 17 AUXILIAR_MATRIX_OUTPUT
+$SC 810-+540/4
+IENDWAVE

@@ -1,0 +1,50 @@
+timestamp=1525009445872
+
+[first_mux]
+A/first_mux_architecture=A/FIRST_MUX_ARCHITECTURE 21|./src/FIRST_MUX.vhd|19|1*118117
+B/first_mux_architecture=3*53427
+H/first_mux_architecture=0*114303
+R=./src/FIRST_MUX.vhd|6
+V=0*3045
+
+[registers_black_box]
+A/registers_black_box_architecture=A/REGISTERS_BLACK_BOX_ARCHITECTURE 21|./src/REGISTERS_BLACK_BOX.vhd|27|1*122008
+B/registers_black_box_architecture=3*55576
+H/registers_black_box_architecture=0*115166
+R=./src/REGISTERS_BLACK_BOX.vhd|6
+V=0*86744
+
+[second_mux]
+A/second_mux_architecture=A/SECOND_MUX_ARCHITECTURE 21|./src/SECOND_MUX.vhd|19|1*120060
+B/second_mux_architecture=3*54501
+H/second_mux_architecture=0*114729
+R=./src/SECOND_MUX.vhd|6
+V=0*7020
+
+[types]
+E=1*0
+R=./src/packageTypes.vhd|5
+V=0*592
+
+[~A]
+./src/FIRST_MUX.vhd~FIRST_MUX=0*1168*1584
+./src/FIRST_MUX.vhd~FIRST_MUX_ARCHITECTUREFIRST_MUX=0*114422*114638
+./src/REGISTERS_BLACK_BOX.vhd~REGISTERS_BLACK_BOX=0*81239*81910
+./src/REGISTERS_BLACK_BOX.vhd~REGISTERS_BLACK_BOX_ARCHITECTUREREGISTERS_BLACK_BOX=0*117193*118651
+./src/SECOND_MUX.vhd~SECOND_MUX=0*5121*5541
+./src/SECOND_MUX.vhd~SECOND_MUX_ARCHITECTURESECOND_MUX=0*114850*115072
+./src/packageTypes.vhd~types=0*0*225
+ModifyID=281
+Version=73
+
+[~MFT]
+0=291|0REGISTERS.mgf|118651|102018
+1=81|1REGISTERS.mgf|122008|117254
+3=78|3REGISTERS.mgf|55576|53427
+
+[~U]
+first_mux=FIRST_MUX 11|0*2079|0*2378
+registers_black_box=11|0*85256|0*85749
+second_mux=SECOND_MUX 11|0*6049|0*6351
+types=3||0*293
+

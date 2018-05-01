@@ -1,0 +1,11 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#38#std_logic_vector((NR_BITS-1) downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 33 1 8 FIRST_NUMBER
+$SC 1-29/4
+$BUS OUT 66 1 8 RESULT
+$SC 34-62/4
+$OUT +5 2 ZERO_FLAG
+$OUT +4 2 0 5 CARRY
+$ENDWAVE
