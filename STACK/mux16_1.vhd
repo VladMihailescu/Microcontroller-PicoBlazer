@@ -1,9 +1,9 @@
-use types.all; 		
+use type2.all; 		
 
 entity mux is		
-	port(A:in ARR;	 
+	port(A:in ARAY;	 
 	S:in integer range 0 to 15;
-	B:out BIT_VECTOR(7 downto 0));	  
+	B:out integer range 0 to 255);	  
 end;
 architecture mux of mux is  	
 begin	
