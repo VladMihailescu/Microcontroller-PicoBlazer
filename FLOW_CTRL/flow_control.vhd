@@ -1,6 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;  
-
+--warning nu stiu daca merge
 entity f_ctrl is
 	port(CONST:in STD_LOGIC_VECTOR(7 downto 0);
 	JMP:in BIT;
