@@ -4,8 +4,7 @@ entity stack is
 	UP:in BIT;
 	DOWN:in BIT;
 	EMPTY:inout BIT;
-	FULL:inout BIT;
-	CLK:in BIT);
+	FULL:inout BIT);
 end;   
 use type2.all;
 architecture stack of stack is 

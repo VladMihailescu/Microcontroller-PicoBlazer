@@ -2,7 +2,6 @@ package types is
 	type ARR  is array (15 downto 0)of BIT_VECTOR (7 downto 0);	   
 end package;  
 
-
 use types.all; 		
 
 entity dmux is		
