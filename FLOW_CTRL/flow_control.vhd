@@ -5,6 +5,8 @@ entity f_ctrl is
 	port(CONST:in STD_LOGIC_VECTOR(7 downto 0);
 	JMP:in BIT;
 	CALL:in BIT;
+	EMPTY:in BIT;
+	FULL:in BIT;
 	RET:in BIT;
 	UP:out BIT;
 	DOWN:out BIT;			   
@@ -15,7 +17,7 @@ end;
 
 architecture f_ctrl of f_ctrl is
 begin
-	process(CONST,JMP,CALL)
+	process(CONST,JMP,CALL,RET)
 	variable rez:integer range 0 to 255 :=0;  
 	variable re:integer range 0 to 255 :=0; 
 	begin
@@ -52,7 +54,7 @@ begin
 		elsif(JMP='0' and JMP'EVENT)then
 			LOAD<='0' after 1 ns;
 		end if;	 
-		if(CALL='1' and CALL'EVENT)then
+		if(CALL='1' and CALL'EVENT and FULL='0')then
 			UP<='1' after 1 ns;
 			OUTP<=rez after 2 ns;
 			LOAD<='1' after 3 ns;
@@ -60,13 +62,13 @@ begin
 			UP<='0' after 1 ns;
 			LOAD<='0' after 2 ns;
 		end if;
-		if(RET='1' and RET'EVENT)then
-			DOWN<='1' after 1 ns;
+		if(RET='1' and RET'EVENT and EMPTY='0')then
+			DOWN<='1'after 1 ns;
 			re:=INP;
 			OUTP<=re after 2 ns;
 			LOAD<='1' after 3 ns;
 		elsif(RET='0' and RET'EVENT)then 
-			DOWN<='0' after 1 ns;
+			DOWN<='0'after 1 ns;
 			LOAD<='0' after 2 ns;
 		end if;	 
 	end process;
