@@ -1,11 +1,14 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
 entity counter is
 	port(UP:in BIT;
 	DOWN:in BIT;  
-	FULL:inout BIT;
-	EMPTY:inout BIT:='1';
 	Y:out Integer range 0 to 15:=0);
 end;
 architecture counter of counter is
+signal FULL: STD_LOGIC:='0';
+signal EMPTY: STD_LOGIC:='1';
 begin
 	process(UP,DOWN)
 	variable num: Integer range 0 to 16:=0;

@@ -7,16 +7,16 @@ entity p_counter is
 	CLK:in BIT;
 	OUTPUT:out integer range 0 to 255);
 end;
-architecture p_counter of p_counter is
-begin
+architecture p_counter of p_counter is 
+begin					   
 	process(CLK,LOAD)
-	variable data:integer range 0 to 256:=255;	
+	variable data:integer range 0 to 256:=0;	
 	variable sem:BIT:='0';
 	begin  	
 		if(LOAD='1' and LOAD'EVENT)then
 			data:=ADDRESS;	
 			sem:='1';
-		end if;	 
+		end if;
 		if(CLK='1' and CLK'EVENT) then 
 			if(sem='0')then
 				data:=data+1;
@@ -25,9 +25,9 @@ begin
 			end if;
 			if data=256 then
 				data :=0;
-			end if;
+			end if;	
 			OUTPUT<=data;
-		end if;	  
+		end if;		 
 	end process ;
 end;
 			

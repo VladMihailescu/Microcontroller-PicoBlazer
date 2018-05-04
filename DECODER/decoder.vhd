@@ -3,9 +3,9 @@ use ieee.std_logic_1164.all;
 
 entity decoder is
 	port(A:in STD_LOGIC_VECTOR(15 downto 0);--instructiune 16 biti 
-	JMP:out BIT;							--semnal call
-	CALL:out BIT;							--semnal jump
-	RET:out BIT;							--semnal return	
+	JMP:out BIT:='0';							--semnal call
+	CALL:out BIT:='0';							--semnal jump
+	RET:out BIT:='0';							--semnal return	
 	S_FC:out STD_LOGIC_VECTOR(2 downto 0);	--selectie FC
 	RESET:out STD_LOGIC; 					--semnal reset(nefolosit)
 	S_MUX:out STD_LOGIC;					--selectie intre registru sau constanta ALU
@@ -14,29 +14,31 @@ entity decoder is
 	SEL1:out STD_LOGIC_VECTOR(3 downto 0);	--selectie in/out registru
 	SEL2:out STD_LOGIC_VECTOR(3 downto 0); 	--selectie out2 registru
 	S_ALU:out STD_LOGIC_VECTOR(3 downto 0);	--selectie mux ALU
-	CONST:out STD_LOGIC_VECTOR(7 downto 0);	--date constante
-	CLK:in STD_LOGIC);						--obvious
+	CONST:out STD_LOGIC_VECTOR(7 downto 0)
+);	--date constante						
 end;		 
 
 
 --deci merge pe op aritmetico-logice
 architecture decoder of decoder is
 begin
-	process(CLK)
-	begin
-		if(CLK='1' and CLK'EVENT) then	
+	process(A)
+	begin  	
+		JMP<='0';
+		CALL<='0';
+		RET<='0';  
 			if(A(15 downto 13)="100")then  
 				case A(9 downto 8)is
 					when "01" => 
-						JMP<='1'after 1ns, '0' after 10ns;
+						JMP<='1';
 					   	CONST<=A(7 downto 0); 
 						S_FC<=A(12 downto 10); 
 					when "11" => 
-						CALL<='1'after 1ns, '0' after 10ns;
+						CALL<='1';
 					   	CONST<=A(7 downto 0);
 						S_FC<=A(12 downto 10); 
 					when "00" =>	 
-						RET<='1'after 1ns, '0' after 10ns; 
+						RET<='1'; 
 					when others =>null;
 				end case;
 			end if;
@@ -100,8 +102,7 @@ begin
 					SEL1<=A(11 downto 8);
 					SEL2<=A(7 downto 4);
 				when others =>	RESET<='0';	
-			end case;
-		end if;
+			end case; 
 	end process;		
 	
 end;
