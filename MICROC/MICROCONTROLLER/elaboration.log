@@ -1,0 +1,45 @@
+elbread.dll ver. 1.0.5.365 Fri May 11 21:42:24 2018
+
+
+-------------------------------------------------------------------------
+Entity               | Architecture                     | Library      
+-------------------------------------------------------------------------
+connected            | connected_architecture           | MICROCONTROLLER
+alu_black_box        | alu_black_box_architecture       | microcontroller
+decoder_black_box    | decoder_black_box_architecture   | microcontroller
+registers_black_box  | registers_black_box_architecture | microcontroller
+clk_divider          | clk_divider_architecture         | microcontroller
+counter_black_box    | counter_black_box_architecture   | microcontroller
+rom                  | rom_architecture                 | microcontroller
+flow_black_box       | flow_black_box_architecture      | microcontroller
+mux_input            | mux_input_architecture           | microcontroller
+add                  | add_architecture                 | microcontroller
+addcy                | addcy_architecture               | microcontroller
+andd                 | andd_architecture                | microcontroller
+orr                  | orr_architecture                 | microcontroller
+sub                  | sub_architecture                 | microcontroller
+subcy                | subcy_architecture               | microcontroller
+xorr                 | xorr_architecture                | microcontroller
+sr0                  | sr0_architecture                 | microcontroller
+sr1                  | sr1_architecture                 | microcontroller
+srx                  | srx_architecture                 | microcontroller
+sraa                 | sraa_architecture                | microcontroller
+rr                   | rr_architecture                  | microcontroller
+sl0                  | sl0_architecture                 | microcontroller
+sl1                  | sl1_architecture                 | microcontroller
+slx                  | slx_architecture                 | microcontroller
+slaa                 | slaa_architecture                | microcontroller
+rl                   | rl_architecture                  | microcontroller
+load                 | load_architecture                | microcontroller
+mux_flags            | mux_flags_architecture           | microcontroller
+mux_output           | mux_output_architecture          | microcontroller
+-------------------------------------------------------------------------
+
+---------------------------------
+Package         | Library      
+---------------------------------
+standard        | std
+std_logic_1164  | ieee
+numeric_std     | ieee
+types           | MICROCONTROLLER
+---------------------------------
