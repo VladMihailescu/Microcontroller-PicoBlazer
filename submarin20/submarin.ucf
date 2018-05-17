@@ -1,0 +1,26 @@
+NET "CLK" LOC = B8;
+NET "CLK_switch" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "CLK_switch" LOC = N3;
+NET "reset" LOC = G12;
+
+NET "data_in(0)" LOC = P11;
+NET "data_in(1)" LOC = L3;
+NET "data_in(2)" LOC = K3;
+NET "data_in(3)" LOC = B4;
+#NET "data_in(4)" LOC = G3;
+#NET "data_in(5)" LOC = F3;
+#NET "data_in(6)" LOC = E2;
+#NET "data_in(7)" LOC = N3;
+
+NET "anode(3)" LOC = k14;
+NET "anode(2)" LOC = M13;
+NET "anode(1)" LOC = J12;
+NET "anode(0)" LOC = F12;
+
+NET "cathode(6)" LOC = L14;
+NET "cathode(5)" LOC = H12;
+NET "cathode(4)" LOC = N14;
+NET "cathode(3)" LOC = N11;
+NET "cathode(2)" LOC = P12;
+NET "cathode(1)" LOC = L13;
+NET "cathode(0)" LOC = M12;

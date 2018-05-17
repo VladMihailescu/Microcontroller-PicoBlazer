@@ -1,0 +1,201 @@
+V3 146
+FL C:/My_Designs/submarin20/add.vhd 2018/05/14.16:50:20 P.58f
+EN work/ADD 1526579912 FL C:/My_Designs/submarin20/add.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/ADD/ADD_ARCHITECTURE 1526579913 \
+      FL C:/My_Designs/submarin20/add.vhd EN work/ADD 1526579912
+FL C:/My_Designs/submarin20/addcy.vhd 2018/05/16.17:21:54 P.58f
+EN work/ADDCY 1526579914 FL C:/My_Designs/submarin20/addcy.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/ADDCY/ADDCY_ARCHITECTURE 1526579915 \
+      FL C:/My_Designs/submarin20/addcy.vhd EN work/ADDCY 1526579914
+FL C:/My_Designs/submarin20/afisor.vhd 2018/05/16.21:22:11 P.58f
+EN work/afisor 1526579971 FL C:/My_Designs/submarin20/afisor.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/afisor/afisor 1526579972 \
+      FL C:/My_Designs/submarin20/afisor.vhd EN work/afisor 1526579971
+FL C:/My_Designs/submarin20/alu_black_box.vhd 2018/05/14.16:50:20 P.58f
+EN work/ALU_BLACK_BOX 1526579959 FL C:/My_Designs/submarin20/alu_black_box.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/types 1526579905
+AR work/ALU_BLACK_BOX/ALU_BLACK_BOX_ARCHITECTURE 1526579960 \
+      FL C:/My_Designs/submarin20/alu_black_box.vhd EN work/ALU_BLACK_BOX 1526579959 \
+      CP MUX_INPUT CP ADD CP ADDCY CP ANDD CP ORR CP SUB CP SUBCY CP XORR CP SR0 CP SR1 \
+      CP SRX CP SRAA CP RR CP SL0 CP SL1 CP SLX CP SLAA CP RL CP LOAD CP MUX_FLAGS \
+      CP MUX_OUTPUT
+FL C:/My_Designs/submarin20/and.vhd 2018/05/14.16:50:20 P.58f
+EN work/ANDD 1526579916 FL C:/My_Designs/submarin20/and.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/ANDD/ANDD_ARCHITECTURE 1526579917 \
+      FL C:/My_Designs/submarin20/and.vhd EN work/ANDD 1526579916
+FL C:/My_Designs/submarin20/clk_divider.vhd 2018/05/17.11:41:08 P.58f
+EN work/CLK_DIVIDER 1526579967 FL C:/My_Designs/submarin20/clk_divider.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/types 1526579905
+AR work/CLK_DIVIDER/CLK_DIVIDER_ARCHITECTURE 1526579968 \
+      FL C:/My_Designs/submarin20/clk_divider.vhd EN work/CLK_DIVIDER 1526579967
+FL C:/My_Designs/submarin20/counter.vhd 2018/05/16.17:01:41 P.58f
+EN work/counter 1526579908 FL C:/My_Designs/submarin20/counter.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/counter/counter 1526579909 \
+      FL C:/My_Designs/submarin20/counter.vhd EN work/counter 1526579908
+FL C:/My_Designs/submarin20/decoder.vhd 2018/05/17.13:31:58 P.58f
+EN work/decoder 1526579957 FL C:/My_Designs/submarin20/decoder.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/decoder/decoder 1526579958 \
+      FL C:/My_Designs/submarin20/decoder.vhd EN work/decoder 1526579957
+FL C:/My_Designs/submarin20/dmux1_16.vhd 2018/05/17.11:35:41 P.58f
+PH work/type2 1526579902 FL C:/My_Designs/submarin20/dmux1_16.vhd
+EN work/dmux 1526579903 \
+      FL C:/My_Designs/submarin20/dmux1_16.vhd PH work/type2 1526579902
+AR work/dmux/dmux 1526579904 \
+      FL C:/My_Designs/submarin20/dmux1_16.vhd EN work/dmux 1526579903
+FL C:/My_Designs/submarin20/flow_control.vhd 2018/05/17.14:03:32 P.58f
+EN work/f_ctrl 1526579965 FL C:/My_Designs/submarin20/flow_control.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/f_ctrl/f_ctrl 1526579966 \
+      FL C:/My_Designs/submarin20/flow_control.vhd EN work/f_ctrl 1526579965
+FL C:/My_Designs/submarin20/load.vhd 2018/05/14.16:50:20 P.58f
+EN work/LOAD 1526579946 FL C:/My_Designs/submarin20/load.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/LOAD/LOAD_ARCHITECTURE 1526579947 \
+      FL C:/My_Designs/submarin20/load.vhd EN work/LOAD 1526579946
+FL C:/My_Designs/submarin20/mux16_1.vhd 2018/05/17.11:36:12 P.58f
+EN work/mux 1526579906 FL C:/My_Designs/submarin20/mux16_1.vhd PH work/type2 1526579902
+AR work/mux/mux 1526579907 \
+      FL C:/My_Designs/submarin20/mux16_1.vhd EN work/mux 1526579906
+FL C:/My_Designs/submarin20/mux_flags.vhd 2018/05/14.16:50:20 P.58f
+EN work/MUX_FLAGS 1526579948 FL C:/My_Designs/submarin20/mux_flags.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/types 1526579905
+AR work/MUX_FLAGS/MUX_FLAGS_ARCHITECTURE 1526579949 \
+      FL C:/My_Designs/submarin20/mux_flags.vhd EN work/MUX_FLAGS 1526579948
+FL C:/My_Designs/submarin20/mux_iesire.vhd 2018/05/14.16:50:20 P.58f
+EN work/MUX_OUTPUT 1526579950 FL C:/My_Designs/submarin20/mux_iesire.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/types 1526579905
+AR work/MUX_OUTPUT/MUX_OUTPUT_ARCHITECTURE 1526579951 \
+      FL C:/My_Designs/submarin20/mux_iesire.vhd EN work/MUX_OUTPUT 1526579950
+FL C:/My_Designs/submarin20/mux_input.vhd 2018/05/14.16:50:20 P.58f
+EN work/MUX_INPUT 1526579910 FL C:/My_Designs/submarin20/mux_input.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/types 1526579905
+AR work/MUX_INPUT/MUX_INPUT_ARCHITECTURE 1526579911 \
+      FL C:/My_Designs/submarin20/mux_input.vhd EN work/MUX_INPUT 1526579910
+FL C:/My_Designs/submarin20/or.vhd 2018/05/14.16:50:20 P.58f
+EN work/ORR 1526579918 FL C:/My_Designs/submarin20/or.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/ORR/ORR_ARCHITECTURE 1526579919 \
+      FL C:/My_Designs/submarin20/or.vhd EN work/ORR 1526579918
+FL C:/My_Designs/submarin20/packagetypes.vhd 2018/05/14.16:50:20 P.58f
+PH work/types 1526579905 FL C:/My_Designs/submarin20/packagetypes.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+FL C:/My_Designs/submarin20/p_counter.vhd 2018/05/16.21:53:42 P.58f
+EN work/p_counter 1526579955 FL C:/My_Designs/submarin20/p_counter.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219
+AR work/p_counter/p_counter 1526579956 \
+      FL C:/My_Designs/submarin20/p_counter.vhd EN work/p_counter 1526579955
+FL C:/My_Designs/submarin20/ram.vhd 2018/05/17.20:58:17 P.58f
+PH work/type_r 1526579952 FL C:/My_Designs/submarin20/ram.vhd \
+      PB ieee/std_logic_1164 1364358218
+EN work/ram 1526579953 \
+      FL C:/My_Designs/submarin20/ram.vhd PB ieee/std_logic_1164 1364358218
+AR work/ram/ram 1526579954 \
+      FL C:/My_Designs/submarin20/ram.vhd EN work/ram 1526579953 PH work/type_r 1526579952
+FL C:/My_Designs/submarin20/registers_black_box.vhd 2018/05/14.16:50:20 P.58f
+EN work/REGISTERS_BLACK_BOX 1526579961 \
+      FL C:/My_Designs/submarin20/registers_black_box.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223 PH work/types 1526579905
+AR work/REGISTERS_BLACK_BOX/REGISTERS_BLACK_BOX_ARCHITECTURE 1526579962 \
+      FL C:/My_Designs/submarin20/registers_black_box.vhd \
+      EN work/REGISTERS_BLACK_BOX 1526579961
+FL C:/My_Designs/submarin20/rl.vhd 2018/05/14.16:50:20 P.58f
+EN work/RL 1526579944 FL C:/My_Designs/submarin20/rl.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/RL/RL_ARCHITECTURE 1526579945 \
+      FL C:/My_Designs/submarin20/rl.vhd EN work/RL 1526579944
+FL C:/My_Designs/submarin20/rr.vhd 2018/05/14.16:50:20 P.58f
+EN work/RR 1526579934 FL C:/My_Designs/submarin20/rr.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/RR/RR_ARCHITECTURE 1526579935 \
+      FL C:/My_Designs/submarin20/rr.vhd EN work/RR 1526579934
+FL C:/My_Designs/submarin20/sl0.vhd 2018/05/14.16:50:20 P.58f
+EN work/SL0 1526579936 FL C:/My_Designs/submarin20/sl0.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/SL0/SL0_ARCHITECTURE 1526579937 \
+      FL C:/My_Designs/submarin20/sl0.vhd EN work/SL0 1526579936
+FL C:/My_Designs/submarin20/sl1.vhd 2018/05/14.16:50:20 P.58f
+EN work/SL1 1526579938 FL C:/My_Designs/submarin20/sl1.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/SL1/SL1_ARCHITECTURE 1526579939 \
+      FL C:/My_Designs/submarin20/sl1.vhd EN work/SL1 1526579938
+FL C:/My_Designs/submarin20/sla.vhd 2018/05/14.16:50:20 P.58f
+EN work/SLAA 1526579942 FL C:/My_Designs/submarin20/sla.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/SLAA/SLAA_ARCHITECTURE 1526579943 \
+      FL C:/My_Designs/submarin20/sla.vhd EN work/SLAA 1526579942
+FL C:/My_Designs/submarin20/slx.vhd 2018/05/14.16:50:20 P.58f
+EN work/SLX 1526579940 FL C:/My_Designs/submarin20/slx.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/SLX/SLX_ARCHITECTURE 1526579941 \
+      FL C:/My_Designs/submarin20/slx.vhd EN work/SLX 1526579940
+FL C:/My_Designs/submarin20/sr0.vhd 2018/05/14.16:50:20 P.58f
+EN work/SR0 1526579926 FL C:/My_Designs/submarin20/sr0.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/SR0/SR0_ARCHITECTURE 1526579927 \
+      FL C:/My_Designs/submarin20/sr0.vhd EN work/SR0 1526579926
+FL C:/My_Designs/submarin20/sr1.vhd 2018/05/14.16:50:20 P.58f
+EN work/SR1 1526579928 FL C:/My_Designs/submarin20/sr1.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/SR1/SR1_ARCHITECTURE 1526579929 \
+      FL C:/My_Designs/submarin20/sr1.vhd EN work/SR1 1526579928
+FL C:/My_Designs/submarin20/sra.vhd 2018/05/14.16:50:20 P.58f
+EN work/SRAA 1526579932 FL C:/My_Designs/submarin20/sra.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/SRAA/SRAA_ARCHITECTURE 1526579933 \
+      FL C:/My_Designs/submarin20/sra.vhd EN work/SRAA 1526579932
+FL C:/My_Designs/submarin20/srx.vhd 2018/05/14.16:50:20 P.58f
+EN work/SRX 1526579930 FL C:/My_Designs/submarin20/srx.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/SRX/SRX_ARCHITECTURE 1526579931 \
+      FL C:/My_Designs/submarin20/srx.vhd EN work/SRX 1526579930
+FL C:/My_Designs/submarin20/stack16.vhd 2018/05/16.16:59:47 P.58f
+EN work/stack 1526579963 FL C:/My_Designs/submarin20/stack16.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/stack/stack 1526579964 \
+      FL C:/My_Designs/submarin20/stack16.vhd EN work/stack 1526579963 \
+      PH work/type2 1526579902 CP dmux CP mux CP counter
+FL C:/My_Designs/submarin20/sub.vhd 2018/05/14.16:50:20 P.58f
+EN work/SUB 1526579920 FL C:/My_Designs/submarin20/sub.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/SUB/SUB_ARCHITECTURE 1526579921 \
+      FL C:/My_Designs/submarin20/sub.vhd EN work/SUB 1526579920
+FL C:/My_Designs/submarin20/subcy.vhd 2018/05/16.17:21:14 P.58f
+EN work/SUBCY 1526579922 FL C:/My_Designs/submarin20/subcy.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/SUBCY/SUBCY_ARCHITECTURE 1526579923 \
+      FL C:/My_Designs/submarin20/subcy.vhd EN work/SUBCY 1526579922
+FL C:/My_Designs/submarin20/test.vhd 2018/05/17.14:12:44 P.58f
+EN work/test01 1526579969 FL C:/My_Designs/submarin20/test.vhd \
+      PB ieee/std_logic_1164 1364358218 PH work/types 1526579905
+AR work/test01/test01 1526579970 \
+      FL C:/My_Designs/submarin20/test.vhd EN work/test01 1526579969 PH work/types 1526579905 \
+      CP ram CP p_counter CP decoder CP ALU_BLACK_BOX CP REGISTERS_BLACK_BOX CP stack \
+      CP f_ctrl CP CLK_DIVIDER
+FL C:/My_Designs/submarin20/test_placa.vhd 2018/05/16.21:27:25 P.58f
+EN work/mux_sub 1526579973 FL C:/My_Designs/submarin20/test_placa.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223 \
+      PH work/types 1526579905
+AR work/mux_sub/mux_sub 1526579974 \
+      FL C:/My_Designs/submarin20/test_placa.vhd EN work/mux_sub 1526579973
+EN work/submarin 1526579975 \
+      FL C:/My_Designs/submarin20/test_placa.vhd PB ieee/std_logic_1164 1364358218 \
+      PH work/types 1526579905
+AR work/submarin/submarin 1526579976 \
+      FL C:/My_Designs/submarin20/test_placa.vhd EN work/submarin 1526579975 \
+      CP test01 CP mux_sub CP afisor
+FL C:/My_Designs/submarin20/xor.vhd 2018/05/14.16:50:20 P.58f
+EN work/XORR 1526579924 FL C:/My_Designs/submarin20/xor.vhd PB ieee/std_logic_1164 1364358218 \
+      PB ieee/NUMERIC_STD 1364358223
+AR work/XORR/XORR_ARCHITECTURE 1526579925 \
+      FL C:/My_Designs/submarin20/xor.vhd EN work/XORR 1526579924
