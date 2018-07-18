@@ -1,6 +1,0 @@
-i<>.\src\MICROCONTROLLER_BLACK_BOX.vhd
-i<>.\src\packageTypes.vhd
-i<>.\src\d\D.vhd
-i<>.\src\connected\CONNECTED.vhd
-i<>.\src\FLOW\FLOW_BLACK_BOX.vhd
-i<>.\src\ALU\MUX_FLAGS.vhd

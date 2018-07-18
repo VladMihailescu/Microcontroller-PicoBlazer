@@ -1,1 +1,0 @@
--w -s "d:\Programs\AHDLMyDesigns\MICROC\library.cfg"  -j "d:\Programs\AHDLMyDesigns\MICROC\MICROCONTROLLER\projlib.cfg"  -d "d:\Programs\AHDLMyDesigns\MICROC\MICROCONTROLLER\compile\"  -work MICROCONTROLLER -dbg -e 100 "d:\Programs\AHDLMyDesigns\MICROC\MICROCONTROLLER\src\CLK_DIVIDER\CLK_DIVIDER.vhd" 

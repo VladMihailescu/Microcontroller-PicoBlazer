@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\My_Designs\submarin\submarin.ncd
-OUTFILE=C:\My_Designs\submarin\submarin.bit
-FAMILY=Spartan3E
-PART=xc3s100e-5cp132
-WORKINGDIR=C:\My_Designs\submarin
-LICENSE=WebPack
-USER_INFO=__0_0_0

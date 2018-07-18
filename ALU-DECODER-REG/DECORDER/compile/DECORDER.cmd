@@ -1,1 +1,0 @@
--w -s "d:\Programs\AHDLMyDesigns\ProiectPSN\library.cfg"  -j "d:\Programs\AHDLMyDesigns\ProiectPSN\DECORDER\projlib.cfg"  -d "d:\Programs\AHDLMyDesigns\ProiectPSN\DECORDER\compile\"  -work DECORDER -dbg -e 100 "d:\Programs\AHDLMyDesigns\ProiectPSN\DECORDER\src\DECODER_BLACK_BOX.vhd"  "d:\Programs\AHDLMyDesigns\ProiectPSN\DECORDER\src\DEC_VECTOR_TO_INTEGER.vhd" 

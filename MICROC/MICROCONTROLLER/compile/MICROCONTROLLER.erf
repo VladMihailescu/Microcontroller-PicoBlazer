@@ -1,5 +1,0 @@
-MESSAGE "File: d:\Programs\AHDLMyDesigns\MICROC\MICROCONTROLLER\src\CLK_DIVIDER\CLK_DIVIDER.vhd" 
-MESSAGE "Compile Entity "CLK_DIVIDER"" 
-MESSAGE "Entity `CLK_DIVIDER' has been skipped - no difference detected." 
-MESSAGE "Compile Architecture "CLK_DIVIDER_ARCHITECTURE" of Entity "CLK_DIVIDER"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 
